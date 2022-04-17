@@ -1,0 +1,67 @@
+body {
+	background-color: hsl(225, 100%, 94%);
+}
+.card {
+	border-radius: 17px;
+	width: 30%;
+	margin: 5% auto 3%;
+	text-align: center;
+}
+.hero {
+	border-radius: 17px 17px 0 0;
+}
+.order,
+.description,
+.change,
+.proceed,
+.cancel {
+	font-family: "Red Hat Display", sans-serif;
+}
+
+.order {
+	font-weight: 900;
+	font-size: 1.5rem;
+	margin: 25px auto;
+}
+.description {
+	color: hsl(224, 23%, 55%);
+	margin: auto;
+	width: 70%;
+	font-size: 16px;
+}
+.annual {
+	width: 80%;
+	border-radius: 5px;
+	border: none;
+	background-color: hsl(225, 100%, 94%);
+}
+.annual-plan {
+	margin: 10px auto;
+}
+.change {
+	display: block;
+	float: right;
+	margin: 20px 20px;
+	text-decoration: underline;
+	color: hsl(245, 75%, 52%);
+}
+.proceed {
+	margin: 20px 40px 25px;
+	background-color: hsl(245, 75%, 52%);
+}
+.cancel {
+	margin-bottom: 15px;
+}
+.cancel-btn {
+	text-decoration: none;
+	color: hsl(224, 23%, 55%);
+	font-weight: 700;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
